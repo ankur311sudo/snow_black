@@ -33,6 +33,15 @@ From Waybar to Neovim to your terminal, every element shares the same Snow_Black
 
 Designed to blend beautifully with grayscale, white, or icy wallpapers.
 
+
+🖼️ Preview
+
+<img width="2240" height="1400" alt="preview" src="https://github.com/user-attachments/assets/0b139e16-ff03-411f-bbd2-bcd4a3d479ca" />
+<img width="2240" height="1400" alt="screenshot-2025-12-10_14-11-24" src="https://github.com/user-attachments/assets/46391fcf-e755-44fd-8371-8a440a76e3a6" />
+<img width="2240" height="1400" alt="screenshot-2025-12-10_14-21-00" src="https://github.com/user-attachments/assets/bb0b7aaa-cee1-4394-9fc9-53ff4bd5665f" />
+<img width="2240" height="1400" alt="screenshot-2025-12-10_13-56-15" src="https://github.com/user-attachments/assets/f771caa8-c229-46bc-88ab-26cd17c01607" />
+
+
 ## Installation
 
 To install this theme, simply use the `omarchy-theme-install` command:
@@ -45,28 +54,6 @@ Or install manually:
 
 git clone https://github.com/ankur311sudo/snow_black ~/.config/omarchy/themes
 
-🖼️ Preview
-
-<img width="2240" height="1400" alt="preview" src="https://github.com/user-attachments/assets/0b139e16-ff03-411f-bbd2-bcd4a3d479ca" />
-<img width="2240" height="1400" alt="screenshot-2025-12-10_14-11-24" src="https://github.com/user-attachments/assets/46391fcf-e755-44fd-8371-8a440a76e3a6" />
-<img width="2240" height="1400" alt="screenshot-2025-12-10_14-21-00" src="https://github.com/user-attachments/assets/bb0b7aaa-cee1-4394-9fc9-53ff4bd5665f" />
-<img width="2240" height="1400" alt="screenshot-2025-12-10_13-56-15" src="https://github.com/user-attachments/assets/f771caa8-c229-46bc-88ab-26cd17c01607" />
-
-
-
-Includes
-
-Hyprland configuration
-
-Waybar theme
-
-Neovim UI presets
-
-Terminal color theme (Alacritty / Kitty / Ghostty)
-
-Fastfetch layout
-
-Icons, accents, and frosted elements
 
 🎯 Why Snow_Black?
 
