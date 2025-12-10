@@ -2,6 +2,7 @@
 <img width="2240" height="1400" alt="preview" src="https://github.com/user-attachments/assets/59164bfc-9a96-4c3b-bd17-ae4ed8bad394" />
 
 
+
 ❄️ Snow_Black – A Frosted Minimalist Theme for Omarchy
 
 Snow_Black is a sleek, frosted, monochrome theme crafted exclusively for Omarchy on Arch + Hyprland.
