@@ -1,3 +1,8 @@
+# Snow Black ( can call it snomarchy 🌨)
+
+<img width="2240" height="1400" alt="screenshot-2025-12-10_14-21-00" src="https://github.com/user-attachments/assets/8a67bb9f-ec44-457b-a0b1-01c3674f9b97" />
+
+
 ❄️ Snow_Black – A Frosted Minimalist Theme for Omarchy
 
 Snow_Black is a sleek, frosted, monochrome theme crafted exclusively for Omarchy on Arch + Hyprland.
@@ -7,39 +12,12 @@ clean, modern, and soothing—yet strikingly powerful.
 Think of it as a quiet snowfall over a black metal stage:
 soft, elegant, minimal… but carrying a bold visual identity.
 
-✨ Features
-❄️ Frosted Aesthetic
 
-A snow-white and charcoal-black palette that gives your desktop a premium, cinematic look.
+## Previwes 
 
-🖥️ Omarchy-Ready
+<img width="2240" height="1400" alt="screenshot-2025-12-10_14-11-24" src="https://github.com/user-attachments/assets/432a4986-3194-44bf-9e97-ac7012f56c80" />
 
-Optimized to work flawlessly with the omarchy-theme-install command.
-All components—Waybar, Hyprland, Terminal, Neovim—are perfectly aligned.
-
-🧊 Translucent Glass Panels
-
-Subtle transparency across your bar, widgets, and windows for a frosted-glass effect.
-
-⚡ Minimal, Clean, and Uncluttered
-
-Balanced margins, soft shadows, simple icons, and consistent spacing for a distraction-free workflow.
-
-🎨 Unified Styling
-
-From Waybar to Neovim to your terminal, every element shares the same Snow_Black identity.
-
-🌨️ Wallpaper-Friendly
-
-Designed to blend beautifully with grayscale, white, or icy wallpapers.
-
-
-🖼️ Preview
-
-<img width="2240" height="1400" alt="preview" src="https://github.com/user-attachments/assets/0b139e16-ff03-411f-bbd2-bcd4a3d479ca" />
-<img width="2240" height="1400" alt="screenshot-2025-12-10_14-11-24" src="https://github.com/user-attachments/assets/46391fcf-e755-44fd-8371-8a440a76e3a6" />
-<img width="2240" height="1400" alt="screenshot-2025-12-10_14-21-00" src="https://github.com/user-attachments/assets/bb0b7aaa-cee1-4394-9fc9-53ff4bd5665f" />
-<img width="2240" height="1400" alt="screenshot-2025-12-10_13-56-15" src="https://github.com/user-attachments/assets/f771caa8-c229-46bc-88ab-26cd17c01607" />
+<img width="2240" height="1400" alt="preview" src="https://github.com/user-attachments/assets/59164bfc-9a96-4c3b-bd17-ae4ed8bad394" />
 
 
 ## Installation
@@ -48,17 +26,67 @@ To install this theme, simply use the `omarchy-theme-install` command:
 
 ```sh
 omarchy-theme-install https://github.com/ankur311sudo/snow_black
+```
+
+## Configuration
+
+This new version neovim colorscheme is based on the great work done by @cdmill on [https://github.com/metalelf0/black-metal-theme-neovim/tree/main](https://github.com/metalelf0/black-metal-theme-neovim/tree/main) Big hail to him!
 
 
-Or install manually:
 
-git clone https://github.com/ankur311sudo/snow_black ~/.config/omarchy/themes
+## My neovim Customization
 
 
-🎯 Why Snow_Black?
+<img width="2240" height="1400" alt="screenshot-2025-12-10_17-53-26" src="https://github.com/user-attachments/assets/b1e5dc51-8f3d-4914-8d14-3e4e0a68ec6f" />
 
-Because you deserve a theme that feels clean, calm, and aesthetic,
-while still delivering the bold contrast that makes Omarchy setups stand out.
 
-A theme for creators, developers, and minimalism enthusiasts who want their system
-to look like winter art—elegant, simple, and unforgettable.
+if you want to have this neovim colorscheme,
+Just copy and paste this lau file into your themes neovim.lua:
+
+```lua
+return {
+	{
+		"metalelf0/black-metal-theme-neovim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("black-metal").setup({
+				theme = "bathory",
+				variant = "dark",
+			})
+			require("black-metal").load()
+		end,
+	},
+}
+```
+
+See `black-metal.palette` for color names.
+
+## Features
+
+ ##Frosted Aesthetic
+   A snow-white and charcoal-black palette that gives your desktop a premium, cinematic look.
+
+##Omarchy-Ready
+  Optimized to work flawlessly with the omarchy-theme-install command.
+  All components—Waybar, Hyprland, Terminal, Neovim—are perfectly aligned.
+
+##Translucent Glass Panels
+  Subtle transparency across your bar, widgets, and windows for a frosted-glass effect.
+
+##Minimal, Clean, and Uncluttered
+  Balanced margins, soft shadows, simple icons, and consistent spacing for a distraction free         workflow. 
+
+##Unified Styling
+  From Waybar to Neovim to your terminal, every element shares the same Snow_Black identity.
+
+##Elegant-wallapers
+  Designed to blend beautifully with grayscale, white, or icy wallpapers.
+
+## Why Snow_Black?
+
+-Because you deserve a theme that feels clean, calm, and aesthetic,
+ while still delivering the bold contrast that makes Omarchy setups stand out.
+
+-A theme for creators, developers, and minimalism enthusiasts who want their system
+ to look like winter art—elegant, simple, and unforgettable.
