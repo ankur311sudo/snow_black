@@ -31,11 +31,11 @@ To install this theme, simply use the `omarchy-theme-install` command:
 omarchy-theme-install https://github.com/ankur311sudo/snow_black
 ```
 
-## Configuration
+## Waybar Configuration
 
-This new version neovim colorscheme is based on the great work done by @cdmill on [https://github.com/metalelf0/black-metal-theme-neovim/tree/main](https://github.com/metalelf0/black-metal-theme-neovim/tree/main) Big hail to him!
+For waybar just copy the config.jsonc and style.css file present int the snowbar directory and enjoy the snowy black waybar ❄️❄️!
 
-
+See `snowbar` for waybar.
 
 ## My neovim Customization
 
@@ -63,8 +63,6 @@ return {
 	},
 }
 ```
-
-See `black-metal.palette` for color names.
 
 ## Features
 
