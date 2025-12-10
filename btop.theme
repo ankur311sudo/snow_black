@@ -1,0 +1,68 @@
+
+# ────────────────────────────────────────────────────────────
+# Bashtop Theme - Pure Black & White
+# True monochrome (no colors)
+# ────────────────────────────────────────────────────────────
+
+# Background (leave empty for terminal’s black)
+theme[main_bg]=""
+
+# Main text — white
+theme[main_fg]="#FFFFFF"
+
+# Titles — light gray
+theme[title]="#C0C0C0"
+
+# Highlight text — white
+theme[hi_fg]="#FFFFFF"
+
+# Selected item background — light gray
+theme[selected_bg]="#909090"
+theme[selected_fg]="#000000"     # black text on light background
+
+# Dim/inactive text — dark gray
+theme[inactive_fg]="#666666"
+
+# Misc info
+theme[proc_misc]="#B0B0B0"
+
+# Box outlines — mid gray
+theme[cpu_box]="#A0A0A0"
+theme[mem_box]="#A0A0A0"
+theme[net_box]="#A0A0A0"
+theme[proc_box]="#A0A0A0"
+theme[div_line]="#A0A0A0"
+
+# Graph gradients (white → gray → black)
+theme[temp_start]="#FFFFFF"
+theme[temp_mid]="#AAAAAA"
+theme[temp_end]="#000000"
+
+theme[cpu_start]="#FFFFFF"
+theme[cpu_mid]="#AAAAAA"
+theme[cpu_end]="#000000"
+
+theme[free_start]="#FFFFFF"
+theme[free_mid]="#AAAAAA"
+theme[free_end]="#000000"
+
+theme[cached_start]="#FFFFFF"
+theme[cached_mid]="#AAAAAA"
+theme[cached_end]="#000000"
+
+theme[available_start]="#FFFFFF"
+theme[available_mid]="#AAAAAA"
+theme[available_end]="#000000"
+
+theme[used_start]="#FFFFFF"
+theme[used_mid]="#AAAAAA"
+theme[used_end]="#000000"
+
+theme[download_start]="#FFFFFF"
+theme[download_mid]="#AAAAAA"
+theme[download_end]="#000000"
+
+theme[upload_start]="#FFFFFF"
+theme[upload_mid]="#AAAAAA"
+theme[upload_end]="#000000"
+

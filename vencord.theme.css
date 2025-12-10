@@ -1,0 +1,50 @@
+
+/**
+* @name Catppuccin Omarchy
+* @author @bypass_
+* @version 0.1.0
+* @description A Vencord theme matching Catppuccin Mocha dark aesthetic.
+* @source https://catppuccin.com
+*/
+
+@import url("https://imbypass.github.io/base16-discord/omarchy-discord.theme.css");
+
+:root {
+    /* Base colors — Catppuccin Mocha */
+    --color00: #000000; /* Base (Background) */
+    --color01: #cdd6f4; /* Text (Foreground) */
+    --color02: #181825; /* Mantle (slightly darker) */
+    --color03: #313244; /* Surface 0 */
+    --color04: #45475a; /* Surface 1 */
+    --color05: #585b70; /* Surface 2 */
+    --color06: #b4befe; /* Accent - Lavender */
+    --color07: #f5e0dc; /* Accent - Rosewater */
+
+    /* Extended accents */
+    --color08: #f38ba8; /* Red (Error/Destructive) */
+    --color09: #fab387; /* Peach (Warning) */
+    --color10: #f9e2af; /* Yellow (Highlight) */
+    --color11: #a6e3a1; /* Green (Success) */
+    --color12: #94e2d5; /* Teal (Info) */
+    --color13: #89b4fa; /* Blue (Primary Accent) */
+    --color14: #cba6f7; /* Mauve (Secondary Accent) */
+    --color15: #f2cdcd; /* Flamingo (Soft Highlight) */
+
+    /* UI tweaks for extra smooth blending */
+    --background-primary: var(--color00);
+    --background-secondary: var(--color02);
+    --background-tertiary: var(--color03);
+    --channeltextarea-background: var(--color02);
+    --text-normal: var(--color01);
+    --text-muted: #a6adc8;
+    --interactive-normal: var(--color05);
+    --interactive-hover: var(--color06);
+    --interactive-active: var(--color13);
+    --interactive-muted: var(--color04);
+    --background-accent: var(--color13);
+    --background-floating: var(--color02);
+    --background-mentioned: rgba(243, 139, 168, 0.08);
+    --background-mentioned-hover: rgba(243, 139, 168, 0.12);
+    --brand-experiment: var(--color13);
+}
+

@@ -1,0 +1,14 @@
+[color]
+gradient = 1
+gradient_count = 8
+
+# White aesthetic — soft minimal greys
+gradient_color_1 = "#FFFFFF"   # pure white
+gradient_color_2 = "#F7F7F7"   # ultra-light grey
+gradient_color_3 = "#F0F0F0"
+gradient_color_4 = "#E8E8E8"
+gradient_color_5 = "#E0E0E0"
+gradient_color_6 = "#D8D8D8"
+gradient_color_7 = "#D0D0D0"
+gradient_color_8 = "#C8C8C8"   # light silver-grey
+

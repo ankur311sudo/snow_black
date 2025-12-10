@@ -1,0 +1,48 @@
+@define-color selected-text #999999;
+@define-color text #EFEFEF;
+@define-color base #000000;
+@define-color border #EFEFEF;
+@define-color foreground #EFEFEF;
+@define-color background #000000;
+
+window .box-wrapper {
+  background: @background;
+  padding: 8px;
+  color: @text;
+  /* border: 0px; */
+  margin: 0;
+}
+
+window .search-container {
+  background: @background;
+  border-radius: 0;
+}
+
+window .placeholder {
+  opacity: 0.4;
+  color: @text;
+}
+
+window .input {
+  color: @accent;
+  padding: 0;
+  font-weight: 300;
+}
+
+child {
+  padding: 0 8px;
+  background: transparent;
+  border-radius: 0;
+  /* border-left: 0px solid @foreground; */
+  transition: all 160ms ease-in-out;
+}
+
+child:hover {
+  background: @background;
+  border-left: 2px solid @background;
+}
+
+child:selected {
+  background: @background;
+  border-left: 2px solid @accent;
+}

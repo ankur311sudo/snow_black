@@ -1,0 +1,56 @@
+[window]
+# window padding {px}
+padding.x = 16
+padding.y = 16
+
+[font]
+size = 12.0
+
+[colors.normal]
+black = "#000000"
+red = "#FEFEFE"
+green = "#BDBDBD"
+yellow = "#CFCFCF"
+blue = "#BDBDBD"
+magenta = "#BDBDBD"
+cyan = "#BDBDBD"
+white = "#FEFEFE"
+
+# [colors.normal]
+# black = "#2c2525"
+# red = "#fd6883"
+# green = "#adda78"
+# yellow = "#f9cc6c"
+# blue = "#f38d70"
+# magenta = "#a8a9eb"
+# cyan = "#85dacc"
+# white = "#e6d9db"
+
+[colors.bright]
+black = "#1A1A1A"
+red = "#F5F5F5"
+green = "#BDBDBD"
+yellow = "#CFCFCF"
+blue = "#BDBDBD"
+magenta = "#BDBDBD"
+cyan = "#BDBDBD"
+white = "#F5F5F5"
+
+[colors.cursor]
+cursor = '#FEFEFE'
+text = '#000000'
+
+[cursor.style]
+shape = "Underline"
+
+[colors.primary]
+# background = '#2c2525'
+# foreground = '#e6d9db'
+# hard contrast background = = '#1d2021'
+background = '#000000'
+# soft contrast background = = '#32302f'
+foreground = '#FEFEFE' # '#eibdbb2'
+
+[colors.selection]
+background = '#2B2B2B' # stronger selection background for visibility when using keyboard
+text = '#FEFEFE'
