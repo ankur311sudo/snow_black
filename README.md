@@ -1,4 +1,4 @@
-# Snow Black ( can call it snomarchy 🌨)
+# Snow Black ( ❄️ Snomarchy ❄️ )
 
 <img width="2240" height="1400" alt="screenshot-2025-12-10_14-21-00" src="https://github.com/user-attachments/assets/8a67bb9f-ec44-457b-a0b1-01c3674f9b97" />
 
@@ -15,10 +15,13 @@ soft, elegant, minimal… but carrying a bold visual identity.
 
 ## Previwes 
 
-<img width="2240" height="1400" alt="screenshot-2025-12-10_14-11-24" src="https://github.com/user-attachments/assets/432a4986-3194-44bf-9e97-ac7012f56c80" />
-
 <img width="2240" height="1400" alt="preview" src="https://github.com/user-attachments/assets/59164bfc-9a96-4c3b-bd17-ae4ed8bad394" />
 
+
+<img width="2240" height="1400" alt="screenshot-2025-12-10_18-20-50" src="https://github.com/user-attachments/assets/247792a5-aa5b-4768-9051-183f317327c6" />
+
+
+<img width="2240" height="1400" alt="screenshot-2025-12-10_14-11-24" src="https://github.com/user-attachments/assets/432a4986-3194-44bf-9e97-ac7012f56c80" />
 
 ## Installation
 
