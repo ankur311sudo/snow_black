@@ -1,0 +1,140 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+  border: none;
+  border-radius: 0px;
+
+  font-family: 'JetBrainsMono Nerd Font';
+  font-weight: bold;
+
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+tooltip {
+  background: @background;
+  border: 1px solid @bg3;
+  font-size: 12px;      /* Smaller text */
+  padding: 5px 7px;     /* Less padding = smaller popup */
+  border-radius: 6px; 
+}
+
+tooltip label {
+  color: @foreground;
+  padding: 6px;
+}
+
+#workspaces {
+  background-color: @background;
+  padding: 5px 3px;
+  margin: 0 0 0 12px;
+  border-radius: 6px;
+  color: @foreground;
+}
+
+#workspaces button {
+  padding: 0px 2px;
+  margin: 0px 3px;
+  border-radius: 6px;
+  color: @foreground;
+  transition: all .3s ease-in-out
+}
+
+#workspaces button.active {
+  background-color: @foreground;
+  color: @background;
+  min-width: 25px;
+  transition: all .3s ease-in-out;
+  font-size: 13px;
+}
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+.modules-center,
+#tray-expander,
+#bluetooth,
+#battery,
+#cpu,
+#custom-weather,
+#pulseaudio,
+#network,
+#clock,
+#custom-notification {
+  background-color: @background;
+  padding: 0 6px 0 6px;
+  margin: 0 0 0 6px;
+  border-radius: 6px;
+}
+
+.modules-center {
+  padding: 0 15 0 15;
+}
+
+#custom-weather {
+  color:@foreground ;
+}
+
+#clock{
+  color: @foreground;
+}
+
+#custom-omarchy {
+  color: @foreground;
+}
+
+#custom-notification {
+  color: @foreground;
+  margin: 0 6px 0 6px;
+  padding: 0 8 0 6;
+}
+
+#pulseaudio {
+  color: @foreground;
+  padding: 0 20 0 13;
+}
+
+
+
+#network {
+  color: @foreground;
+  padding: 0 20 0 13;
+}
+
+#battery {
+  color: @foreground;
+  margin-right: 4;
+}
+
+#bluetooth {
+  color: @foreground;
+}
+
+#cpu {
+  color : @foreground;
+}
+
+#tray-expander {
+  color: @foreground;
+}
+
+#tray {
+  margin-left: 10px;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  padding: 10 15 10 13;
+  font-size: 13px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: @foreground;
+}
+
