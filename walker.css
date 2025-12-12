@@ -9,6 +9,7 @@ window .box-wrapper {
   background: @background;
   padding: 8px;
   color: @text;
+  border-radius: 8px;
   /* border: 0px; */
   margin: 0;
 }
@@ -32,17 +33,17 @@ window .input {
 child {
   padding: 0 8px;
   background: transparent;
-  border-radius: 0;
+  border-radius: 8;
   /* border-left: 0px solid @foreground; */
   transition: all 160ms ease-in-out;
 }
 
 child:hover {
   background: @background;
-  border-left: 2px solid @background;
+  border-left: 0px solid @background;
 }
 
 child:selected {
   background: @background;
-  border-left: 2px solid @accent;
+  border-left: 0px solid @accent;
 }
