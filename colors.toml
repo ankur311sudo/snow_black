@@ -1,0 +1,33 @@
+# Core UI colors
+accent = "#888888"                 # Neutral accent (from color4)
+cursor = "#FFFFFF"                 # Cursor (default white)
+foreground = "#FFFFFF"             # Primary text
+background = "#000000"             # Background
+
+selection_foreground = "#000000"   # Selected text
+selection_background = "#FFFFFF"   # Selection background
+
+# --------------------------------------------------
+# Base16-aligned 16-color palette
+# --------------------------------------------------
+
+# base00–base07 (normal)
+color0  = "#000000"  # base00 - Deep background
+color1  = "#5F8787"  # base08 - Error / critical
+color2  = "#DD9999"  # base0B - Success / positive
+color3  = "#A06666"  # base0A - Warning / attention
+color4  = "#888888"  # base0D - Primary accent
+color5  = "#999999"  # base0E - Secondary accent
+color6  = "#AAAAAA"  # base0C - Informational
+color7  = "#C1C1C1"  # base05 - Default foreground
+
+# base08–base0F (bright)
+color8  = "#333333"  # base03 - Dim / inactive
+color9  = "#5F8787"  # base08 - Bright error
+color10 = "#DD9999"  # base0B - Bright success
+color11 = "#A06666"  # base0A - Bright warning
+color12 = "#888888"  # base0D - Bright accent
+color13 = "#999999"  # base0E - Bright secondary
+color14 = "#AAAAAA"  # base0C - Bright info
+color15 = "#C1C1C1"  # base07 - High-contrast text
+
