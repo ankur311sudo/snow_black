@@ -50,7 +50,7 @@
     "format": "{}°",
     "tooltip": true,
     "interval": 60,
-    "exec": "wttrbar --nerd --location Delhi",
+    "exec": "wttrbar --nerd --location ----", --your own location
     "return-type": "json"
   },
 
