@@ -77,36 +77,36 @@
 -- 	},
 -- }
 
-return {
-	{
-		"oskarnurm/koda.nvim",
-		lazy = false, -- load at startup
-		priority = 1000, -- load before other UI plugins
-		config = function()
-			-- require("koda").setup({ transparent = true }) -- optional
-			vim.cmd.colorscheme("koda")
-		end,
-	},
-
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "koda",
-		},
-	},
-}
-
 -- return {
 -- 	{
--- 		"metalelf0/black-metal-theme-neovim",
--- 		lazy = false,
--- 		priority = 1000,
+-- 		"oskarnurm/koda.nvim",
+-- 		lazy = false, -- load at startup
+-- 		priority = 1000, -- load before other UI plugins
 -- 		config = function()
--- 			require("black-metal").setup({
--- 				theme = "bathory", --(these are variations pick whatever you like)bathory, burzum, dark-funeral, darkthrone, emperor, gorgoroth, immortal, impaled-nazarene, khold, marduk, mayhem, nile, taake, thyrfing, venom, windir
--- 				variant = "dark",
--- 			})
--- 			require("black-metal").load()
+-- 			-- require("koda").setup({ transparent = true }) -- optional
+-- 			vim.cmd.colorscheme("koda")
 -- 		end,
 -- 	},
+--
+-- 	{
+-- 		"LazyVim/LazyVim",
+-- 		opts = {
+-- 			colorscheme = "koda",
+-- 		},
+-- 	},
 -- }
+
+return {
+	{
+		"metalelf0/black-metal-theme-neovim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("black-metal").setup({
+				theme = "bathory", --(these are variations pick whatever you like)bathory, burzum, dark-funeral, darkthrone, emperor, gorgoroth, immortal, impaled-nazarene, khold, marduk, mayhem, nile, taake, thyrfing, venom, windir
+				variant = "dark",
+			})
+			require("black-metal").load()
+		end,
+	},
+}
